@@ -1,2 +1,2 @@
 # coderPhyton_turma58870
-Repossitorio para teste e estudos
+Repositório para teste e estudos
