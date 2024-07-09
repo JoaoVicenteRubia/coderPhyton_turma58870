@@ -41,9 +41,13 @@ Para testar o projeto:
 ## 🛠️ Construído com
 
 Python - Linguagem de programação - Versão: 3.10.6
+
 Pandas - Biblioteca Python para manipulação e análise de dados
+
 Requests - Biblioteca Python para realizar requisições HTTP
+
 Plyer - Biblioteca Python para notificações
+
 
 # Uso
 
