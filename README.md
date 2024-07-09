@@ -118,10 +118,10 @@ def alerta(titulo, mensagem):
     )
 
 # Função para consultar a situação do CNPJ
-def consultar_situação(cnpj):
-    try:
-        response = requests.get(f'https://brasilapi.com.br/api/cvm/corretoras/v1/{cnpj}')
-        response_data = response.json()
+   def consultar_situação(cnpj):
+      try:
+         response = requests.get(f'https://brasilapi.com.br/api/cvm/corretoras/v1/{cnpj}')
+         response_data = response.json()
         
         status = response_data.get('status')
         
@@ -135,9 +135,9 @@ def consultar_situação(cnpj):
     except Exception as e:
         print(f'Erro ao consultar CNPJ: {e}')
 
-if __name__ == '__main__':
-    cnpj = input("Digite o CNPJ: ")
-    consultar_situação(cnpj)
+  if __name__ == '__main__':
+      cnpj = input("Digite o CNPJ: ")
+      consultar_situação(cnpj)
     
 ## ✒️ Autor
 João Rubia Romeiro De Vita
